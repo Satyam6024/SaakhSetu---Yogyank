@@ -1,0 +1,61 @@
+{
+  "features_excluded": {
+    "application_year": "used only for out-of-time validation split",
+    "defaulted_in_next_12_months": "future outcome unavailable at scoring time",
+    "farmer_id": "identifier only",
+    "target_entitlement_score": "training target"
+  },
+  "features_used": [
+    "land_area_acres",
+    "historical_repayment_score",
+    "annual_income_inr",
+    "liability_ratio_pct",
+    "rainfall_deviation_pct",
+    "ndvi_score",
+    "district",
+    "crop_type",
+    "pm_kisan_status",
+    "irrigation_type",
+    "land_ownership",
+    "soil_type",
+    "sales_channel"
+  ],
+  "model_family": "HistGradientBoostingRegressor inside sklearn Pipeline",
+  "model_version": "yogyank_baseline_v1.0.0",
+  "not_policy": "This model does not output probability of default, eligibility, bank cutoffs, grade mappings, or approval decisions.",
+  "objective": "Predict a bank-agnostic Yogyank Entitlement Score.",
+  "preprocessing": {
+    "categorical": "most-frequent imputation plus one-hot encoding",
+    "fit_scope": "preprocessing fitted on training rows only via Pipeline",
+    "numeric": "median imputation"
+  },
+  "validation": {
+    "cutoff_year": 2024,
+    "metrics": {
+      "actual_mean": 789.2929913916787,
+      "mae": 80.64696124655991,
+      "prediction_mean": 772.9930657119007,
+      "r2": 0.2763290204468929,
+      "rmse": 127.11047944447945
+    },
+    "model_version": "yogyank_baseline_v1.0.0",
+    "split_strategy": "out_of_time",
+    "target_leakage_checks": {
+      "defaulted_in_next_12_months": {
+        "correlation_with_target": -0.8855440989040979,
+        "present": true,
+        "risk": "future outcome unavailable at scoring time",
+        "used_as_feature": false
+      }
+    },
+    "train_rows": 3606,
+    "train_years": [
+      2022,
+      2023
+    ],
+    "validation_rows": 1394,
+    "validation_years": [
+      2024
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "farmer_id": "F00011",
+  "model_version": "yogyank_baseline_v1.0.0",
+  "reason_codes": [
+    {
+      "baseline_value": "Yes",
+      "direction": "negative",
+      "estimated_impact_points": -83.25597647011364,
+      "feature": "pm_kisan_status",
+      "feature_label": "PM-Kisan status",
+      "observed_value": "No",
+      "rank": 1,
+      "reason": "PM-Kisan status=No versus baseline Yes reduced the score by about 83.3 points."
+    },
+    {
+      "baseline_value": 65.58500000000001,
+      "direction": "negative",
+      "estimated_impact_points": -70.43281807705773,
+      "feature": "historical_repayment_score",
+      "feature_label": "Historical repayment score",
+      "observed_value": 36.13,
+      "rank": 2,
+      "reason": "Historical repayment score=36.13 versus baseline 65.59 reduced the score by about 70.4 points."
+    },
+    {
+      "baseline_value": 360300.225,
+      "direction": "positive",
+      "estimated_impact_points": 32.188912357280856,
+      "feature": "annual_income_inr",
+      "feature_label": "Annual income",
+      "observed_value": 612313.2,
+      "rank": 3,
+      "reason": "Annual income=612313.20 versus baseline 360300.22 increased the score by about 32.2 points."
+    }
+  ],
+  "score": 595.06
+}

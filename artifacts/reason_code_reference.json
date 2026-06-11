@@ -1,0 +1,37 @@
+{
+  "categorical_baselines": {
+    "crop_type": "Soybean",
+    "district": "Cuttack",
+    "irrigation_type": "Irrigated",
+    "land_ownership": "Owned",
+    "pm_kisan_status": "Yes",
+    "sales_channel": "Local Trader",
+    "soil_type": "Red"
+  },
+  "feature_labels": {
+    "annual_income_inr": "Annual income",
+    "crop_type": "Crop type",
+    "district": "District",
+    "historical_repayment_score": "Historical repayment score",
+    "irrigation_type": "Irrigation type",
+    "land_area_acres": "Land area",
+    "land_ownership": "Land ownership",
+    "liability_ratio_pct": "Liability ratio",
+    "ndvi_score": "NDVI vegetation score",
+    "pm_kisan_status": "PM-Kisan status",
+    "rainfall_deviation_pct": "Rainfall deviation",
+    "sales_channel": "Sales channel",
+    "soil_type": "Soil type"
+  },
+  "method": "For a single farmer, predict once as submitted, then replace each feature one at a time with the training baseline and rank the largest prediction changes.",
+  "model_version": "yogyank_baseline_v1.0.0",
+  "numeric_baselines": {
+    "annual_income_inr": 360300.225,
+    "historical_repayment_score": 65.58500000000001,
+    "land_area_acres": 9.165,
+    "liability_ratio_pct": 20.66,
+    "ndvi_score": 0.55,
+    "rainfall_deviation_pct": 0.155
+  },
+  "warning": "Reason codes are local model diagnostics, not causal explanations and not policy decisions."
+}

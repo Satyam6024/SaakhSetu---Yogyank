@@ -1,0 +1,204 @@
+{
+  "method": "Validation residual summary by monitoring slice.",
+  "slices": [
+    {
+      "actual_mean": 760.7802252252253,
+      "mae": 72.9673853548319,
+      "mean_error": -3.6028486087134457,
+      "n": 222,
+      "prediction_mean": 757.1773766165118,
+      "slice": "crop_type",
+      "value": "Cotton"
+    },
+    {
+      "actual_mean": 797.9267005076142,
+      "mae": 80.80713209195137,
+      "mean_error": -14.199731390463072,
+      "n": 197,
+      "prediction_mean": 783.726969117151,
+      "slice": "crop_type",
+      "value": "Maize"
+    },
+    {
+      "actual_mean": 816.4941269841271,
+      "mae": 81.37877412972446,
+      "mean_error": -20.97748224652384,
+      "n": 189,
+      "prediction_mean": 795.5166447376032,
+      "slice": "crop_type",
+      "value": "Millets"
+    },
+    {
+      "actual_mean": 801.1012234042555,
+      "mae": 86.22258541001224,
+      "mean_error": -14.13477786795641,
+      "n": 188,
+      "prediction_mean": 786.9664455362988,
+      "slice": "crop_type",
+      "value": "Rice"
+    },
+    {
+      "actual_mean": 801.5587735849056,
+      "mae": 78.3551929949878,
+      "mean_error": -31.701839356505843,
+      "n": 212,
+      "prediction_mean": 769.8569342283998,
+      "slice": "crop_type",
+      "value": "Soybean"
+    },
+    {
+      "actual_mean": 752.5453886010363,
+      "mae": 87.47614027550317,
+      "mean_error": -18.915140199417834,
+      "n": 193,
+      "prediction_mean": 733.6302484016184,
+      "slice": "crop_type",
+      "value": "Sugarcane"
+    },
+    {
+      "actual_mean": 798.4120207253885,
+      "mae": 78.85735259641278,
+      "mean_error": -11.043640086627153,
+      "n": 193,
+      "prediction_mean": 787.3683806387614,
+      "slice": "crop_type",
+      "value": "Wheat"
+    },
+    {
+      "actual_mean": 778.9385022026432,
+      "mae": 87.69118796685281,
+      "mean_error": -9.000478816349972,
+      "n": 227,
+      "prediction_mean": 769.9380233862934,
+      "slice": "district",
+      "value": "Balasore"
+    },
+    {
+      "actual_mean": 783.0624229074891,
+      "mae": 74.80152653701352,
+      "mean_error": -10.33269573348327,
+      "n": 227,
+      "prediction_mean": 772.7297271740057,
+      "slice": "district",
+      "value": "Bhadrak"
+    },
+    {
+      "actual_mean": 772.110945945946,
+      "mae": 83.68529365236763,
+      "mean_error": -11.839809652311954,
+      "n": 222,
+      "prediction_mean": 760.271136293634,
+      "slice": "district",
+      "value": "Cuttack"
+    },
+    {
+      "actual_mean": 798.2029147982063,
+      "mae": 83.49599927322532,
+      "mean_error": -12.426451692914858,
+      "n": 223,
+      "prediction_mean": 785.7764631052913,
+      "slice": "district",
+      "value": "Ganjam"
+    },
+    {
+      "actual_mean": 797.4943933054392,
+      "mae": 83.47277604832246,
+      "mean_error": -26.12619131053488,
+      "n": 239,
+      "prediction_mean": 771.3682019949043,
+      "slice": "district",
+      "value": "Mayurbhanj"
+    },
+    {
+      "actual_mean": 803.481171875,
+      "mae": 71.82922375399583,
+      "mean_error": -26.13191242674646,
+      "n": 256,
+      "prediction_mean": 777.3492594482536,
+      "slice": "district",
+      "value": "Puri"
+    },
+    {
+      "actual_mean": 734.6264285714287,
+      "mae": 78.89608832653444,
+      "mean_error": -19.063814418316625,
+      "n": 476,
+      "prediction_mean": 715.5626141531119,
+      "slice": "pm_kisan_status",
+      "value": "No"
+    },
+    {
+      "actual_mean": 817.6386165577342,
+      "mae": 81.55482127916571,
+      "mean_error": -14.866798185720729,
+      "n": 918,
+      "prediction_mean": 802.7718183720134,
+      "slice": "pm_kisan_status",
+      "value": "Yes"
+    },
+    {
+      "actual_mean": 794.9866189856957,
+      "mae": 72.36435935436148,
+      "mean_error": -11.813207466625647,
+      "n": 769,
+      "prediction_mean": 783.1734115190702,
+      "slice": "irrigation_type",
+      "value": "Irrigated"
+    },
+    {
+      "actual_mean": 782.287552,
+      "mae": 90.83787461472087,
+      "mean_error": -21.820383769240355,
+      "n": 625,
+      "prediction_mean": 760.4671682307597,
+      "slice": "irrigation_type",
+      "value": "Rainfed"
+    },
+    {
+      "actual_mean": 824.3681861198738,
+      "mae": 79.79461975655734,
+      "mean_error": -20.50732802348097,
+      "n": 634,
+      "prediction_mean": 803.8608580963929,
+      "slice": "landholding_band",
+      "value": "large_>10"
+    },
+    {
+      "actual_mean": 706.2063829787234,
+      "mae": 105.69453504016329,
+      "mean_error": -5.767085764150886,
+      "n": 47,
+      "prediction_mean": 700.4392972145725,
+      "slice": "landholding_band",
+      "value": "marginal_<=1"
+    },
+    {
+      "actual_mean": 797.2412631578949,
+      "mae": 70.41759706030653,
+      "mean_error": -20.026290271310746,
+      "n": 380,
+      "prediction_mean": 777.2149728865841,
+      "slice": "landholding_band",
+      "value": "medium_5_to_10"
+    },
+    {
+      "actual_mean": 735.4743027888446,
+      "mae": 86.98410238402795,
+      "mean_error": -3.9685039152270964,
+      "n": 251,
+      "prediction_mean": 731.5057988736176,
+      "slice": "landholding_band",
+      "value": "semi_medium_2_to_5"
+    },
+    {
+      "actual_mean": 693.6289024390243,
+      "mae": 100.8870161445365,
+      "mean_error": -10.284300170588144,
+      "n": 82,
+      "prediction_mean": 683.3446022684362,
+      "slice": "landholding_band",
+      "value": "small_1_to_2"
+    }
+  ],
+  "warning": "These are diagnostic slices, not a fairness certification. Production monitoring should add outcome, approval, and drift metrics."
+}

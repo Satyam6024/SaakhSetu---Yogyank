@@ -1,0 +1,90 @@
+{
+  "categorical_features": [
+    "district",
+    "crop_type",
+    "pm_kisan_status",
+    "irrigation_type",
+    "land_ownership",
+    "soil_type",
+    "sales_channel"
+  ],
+  "excluded_from_model": {
+    "future_outcome_leakage": [
+      "defaulted_in_next_12_months"
+    ],
+    "identifier": [
+      "farmer_id"
+    ],
+    "target": [
+      "target_entitlement_score"
+    ],
+    "time_split_only": [
+      "application_year"
+    ]
+  },
+  "id_column": "farmer_id",
+  "model_version": "yogyank_baseline_v1.0.0",
+  "numeric_features": [
+    "land_area_acres",
+    "historical_repayment_score",
+    "annual_income_inr",
+    "liability_ratio_pct",
+    "rainfall_deviation_pct",
+    "ndvi_score"
+  ],
+  "scoring_required_columns": [
+    "land_area_acres",
+    "historical_repayment_score",
+    "annual_income_inr",
+    "liability_ratio_pct",
+    "rainfall_deviation_pct",
+    "ndvi_score",
+    "district",
+    "crop_type",
+    "pm_kisan_status",
+    "irrigation_type",
+    "land_ownership",
+    "soil_type",
+    "sales_channel"
+  ],
+  "target_column": "target_entitlement_score",
+  "time_split_column": "application_year",
+  "transformed_feature_names": [
+    "land_area_acres",
+    "historical_repayment_score",
+    "annual_income_inr",
+    "liability_ratio_pct",
+    "rainfall_deviation_pct",
+    "ndvi_score",
+    "district_Balasore",
+    "district_Bhadrak",
+    "district_Cuttack",
+    "district_Ganjam",
+    "district_Mayurbhanj",
+    "district_Puri",
+    "crop_type_Cotton",
+    "crop_type_Maize",
+    "crop_type_Millets",
+    "crop_type_Rice",
+    "crop_type_Soybean",
+    "crop_type_Sugarcane",
+    "crop_type_Wheat",
+    "pm_kisan_status_No",
+    "pm_kisan_status_Yes",
+    "irrigation_type_Irrigated",
+    "irrigation_type_Rainfed",
+    "land_ownership_Owned",
+    "land_ownership_Tenant",
+    "soil_type_Alluvial",
+    "soil_type_Black",
+    "soil_type_Clay Loam",
+    "soil_type_Laterite",
+    "soil_type_Red",
+    "soil_type_Sandy Loam",
+    "sales_channel_APMC",
+    "sales_channel_Contract Buyer",
+    "sales_channel_FPO",
+    "sales_channel_Local Trader"
+  ],
+  "unknown_category_behavior": "OneHotEncoder(handle_unknown='ignore')"
+}
